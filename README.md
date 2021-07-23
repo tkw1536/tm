@@ -9,7 +9,7 @@ It is available as a GitHub Package.
 Usage:
 
 ```
-    docker run -v $VOLUME:/data/ -t -i --rm -e DELAY=$DELAY -e REMOTE=$REMOTE -p 8080:8080 docker.pkg.github.com/tkw1536/tm/tm:latest
+    docker run -v $VOLUME:/data/ -t -i --rm -e DELAY=$DELAY -e REMOTE=$REMOTE -p 8080:8080 ghcr.io/tkw1536/tm/tm:latest
 ```
 
 Where:
