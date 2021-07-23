@@ -2,6 +2,7 @@
 FROM golang:alpine as builder
 WORKDIR /app/
 ADD entrypoint.go /app/
+ADD go.mod /app/
 RUN go build -o /entrypoint .
 
 FROM alpine
